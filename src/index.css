@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  
+}
+.navbar {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: purple; 
+  padding: 13px 20px;
+}
+.navbar h2{
+  color: white;
+  padding-left: 40px;
+}
+
+.navbar-link {
+  color: white; 
+  text-decoration: none; 
+  margin-left: 20px;
+}
+
+.navbar-link:hover {
+  color: #ddd; 
+}
+
+.navbar-container {
+  display: flex; 
+  align-items: center; 
+}
+
+
+.assignment-list {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;   
+  justify-content: center; 
+  gap: 10px; 
+}
+
+
+
+.search-bar .button {
+  background-color: red;
+  padding: 10px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+
+.assignment-list h2 {
+  margin-bottom: 20px;
+  color: purple;
+  text-align: center;
+  font-size: 20px;
+}
+
+.assignment-list table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  
+}
+
+.assignment-list th, .assignment-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.assignment-list th {
+  background-color: purple;
+  color: white;
+
+}
+
+.assignment-list tr:hover {
+  background-color: #f1f1f1;
+}
+
+.assignment-list button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.assignment-list button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.assignment-list .delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.assignment-list .delete-button:hover {
+  background-color: #c82333;
+}
+
+ 
+
+
+
+
+
+
+
+ form {
+  background-color: #fff;      
+  padding: 20px;              
+  border-radius: 8px;        
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  width: 300px;   
+         
+}
+.form-container {
+  display: flex;               
+  flex-direction: column;     
+  align-items: center;        
+  justify-content: center;    
+  height: 70vh;              
+  padding: 20px;   
+}
+.add{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+input {
+  width: 90%;                
+  padding: 10px;              
+  margin-bottom: 20px;        
+  border: 1px solid #ccc;    
+  border-radius: 4px;         
+}
+
+button {
+  background-color: purple;  
+  color: white;              
+  padding: 10px 30px;              
+  border: none;               
+  border-radius: 4px;        
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: purple;  
+}
+
+/* paragraph */
+.pa{
+  margin-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.pa a{
+  color: rgb(155, 13, 155);
+  font-size: 1.1rem;
+
+}
+/* button and paragraph */
+.fb{
+ 
+}
+
+/*  */
+.sign-image{
+  text-align: center;
+}
+
+/* h2 */
+.login{
+  margin-bottom: 1.4rem;
+  font-size: 1.5rem;
+  color: purple;
+
+}
+.login-image{
+  height: 50px;
+  border-radius: 8px;
+}
+
+/* AssignmentDetail.css */
+
+.assignment-detail {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.assignment-detail h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.assignment-detail form {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.assignment-detail label {
+  margin: 10px 0 5px;
+}
+
+.assignment-detail input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.assignment-detail button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.assignment-detail button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  margin-top: 10px;
+}
+
+.assignment-detail button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+.assignment-detail .back-button {
+  background-color: #6c757d;
+  color: white;
+}
+
+.assignment-detail .back-button:hover {
+  background-color: #5a6268;
+}
+
+
+
+
+
+
